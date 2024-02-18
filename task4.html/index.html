@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <title>Two Columns Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .column {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .left-column {
+      background-color: #f0f0f0;
+    }
+
+    .right-column {
+      background-color: #FEBE10;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .email-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px; 
+      width: 200 px;
+    }
+
+    .signup-button {
+      background-color: black;
+      color: white;
+      padding: 12px 135px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 1000 px;
+      margin-top: -5px; 
+      font-size: 16px;
+      border-radius: 10px;
+      font-family: sans-serif;
+
+    }
+
+    .text-above-email {
+      margin-bottom: 10px;
+      margin-top: 2px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: x-small;
+
+    }
+
+    .email{
+      width:1000 px;
+    }
+
+    .button{
+      font-size: 20px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: normal;
+      padding: 5px 70px;
+      justify-content: left;
+      cursor: text;
+      font-display:inherit;
+      text-justify: auto;
+      border-radius: 10px;
+      color: rgb(128,128,128)
+    }
+
+    .offer{
+      font-size: xx-large;
+      margin-top: -50px;
+      font-family: "PT Serif", serif;
+    }
+
+    .great{
+      background-color: #FEBE10;
+      image-orientation: inherit;
+    }
+
+    .f{
+      margin-top: -40px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+    }
+
+    .c{
+      margin-top: -20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="column left-column">
+      <img src="left_image.jpg" alt="Left Image">
+    </div>
+    <div class="column right-column">
+      <div class="centre">
+        <img src="download.png" alt="great">
+        <div class="text-above-email"><h1>Sign-up now to enjoy</h1></div>
+        <div class="offer"><h1>$100 OFF</h1></div>
+        <div class="f"><h2>Our Family Style, five-piece set of</h2></div>
+        <div class="c"><h2>cookware esentials!</h2></div>
+        <div class="email-box">
+        <input type="email" class="button" placeholder="E-mail Address">
+        </div>
+        <button class="signup-button"><b>Continue</b></button>
+        <div class=""><h4><u>NO I'LL PAY FULL PRICE</u></h4></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
